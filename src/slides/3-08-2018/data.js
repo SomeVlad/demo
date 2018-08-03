@@ -30,7 +30,9 @@ export default [
         },
         content: [
             <q>
-                <h1>rise.private demo</h1>
+                <h1 style={{ marginBottom: 20 }}>rise.private demo</h1>
+                <h5>23.07–06.08</h5>
+                <h5>«Выпил и запил»</h5>
                 <img src={logo} className='logo' />
                 <div style={{
                     background: `url(${penguin}) center center no-repeat`,
@@ -259,7 +261,8 @@ export default [
         content: [
             <q>
                 <div>Спасибо за внимание</div>
-                <img style={{marginTop: 50}} src="https://media.giphy.com/media/26FxCOdhlvEQXbeH6/giphy.gif" width='100%'/>
+                <img style={{ marginTop: 50 }} src="https://media.giphy.com/media/26FxCOdhlvEQXbeH6/giphy.gif"
+                     width='100%' />
             </q>
         ]
     }

@@ -1,5 +1,9 @@
 .logo {
-    transform: translateY(130px);
+    transform: translateY(30px);
+}
+
+.past {
+    opacity: 0 !important;
 }
 
 .no-overflow {
